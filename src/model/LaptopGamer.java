@@ -1,4 +1,6 @@
-public class LaptopGamer extends Laptop{
+package model;
+
+public class LaptopGamer extends Laptop {
     public LaptopGamer(String marca, String modelo, int ano_fabricacion, String tipo_procesador, Double tamano_pantalla) {
         super(marca, modelo, ano_fabricacion, tipo_procesador, tamano_pantalla);
     }
@@ -10,8 +12,8 @@ public class LaptopGamer extends Laptop{
 
     @Override
     public String toString() {
-        return "Corriendo programas en una Laptop Gamer\n" +
-                "Laptop Gamer\n" +
+        return "Corriendo programas en una model.Laptop Gamer\n" +
+                "model.Laptop Gamer\n" +
                 "Marca y Modelo: " + marca + " " + modelo + "\n" +
                 "Año de Fabricacion: " + ano_fabricacion + "\n" +
                 "Procesador: " + tipo_procesador + "\n" +

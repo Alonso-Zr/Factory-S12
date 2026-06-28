@@ -1,3 +1,5 @@
+package model;
+
 public abstract class Laptop {
     protected String marca;
     protected String modelo;

@@ -1,3 +1,9 @@
+package app;
+
+import builder.LaptopFactory;
+import model.Laptop;
+import model.LaptopBasico;
+
 public class BasicoFactory extends LaptopFactory {
     @Override
     public Laptop crearLaptop(String marca, String modelo, int ano_fabricacion, String tipo_procesador, Double tamano_pantalla) {
